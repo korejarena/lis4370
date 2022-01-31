@@ -1,0 +1,8 @@
+Name <- c("Jeb", "Donald", "Ted", "Marco", "Carly", "Hillary", "Bernie")
+ABC <- c(4, 62, 51, 21, 2, 14, 15)
+CBS <- c(12, 75, 43, 19, 1, 21, 19) 
+PolDraw <- data.frame(Name, ABC, CBS)
+print(PolDraw)
+print(PolDraw$Name)
+print(PolDraw$CBS[4])
+print(PolDraw$Name[4],PolDraw$CBS[4])
