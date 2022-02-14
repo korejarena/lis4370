@@ -27,3 +27,6 @@ mat_inverse = matrix(2:5, nrow = 2)
 
 #Check matrix inverse
 mat_inverse
+
+#Check det
+det(mat_inverse)
